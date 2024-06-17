@@ -24,7 +24,7 @@ int mini (int arra[10],int n){
 int main(){
     int n,i;
     int arr[10],max,min;
-    cout<<"enter how many digits"<<endl;
+    cout<<"enter how many digitss"<<endl;
     cin>>n;
     for(i=0;i<n;i++){
         cin>>arr[i];
