@@ -6,7 +6,7 @@ class A {
 protected:
 int a=10,b=12;
 public:
-    A()
+    void add()
     {   
         int c = a+b;
         cout<<c;
@@ -16,7 +16,7 @@ public:
 class B: public A
 {
     public:
-    B()
+    void sub()
     {
         int d = a-b;
         cout<<d;    
@@ -27,8 +27,8 @@ class B: public A
 int main()
 {   
    B c;
-   c.A();
-   c.B();
+   c.add();
+   c.sub();
 
 
 }
